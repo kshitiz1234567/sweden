@@ -1,0 +1,23 @@
+{
+  "name": "sweden",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "@as-integrations/azure-functions": "^0.1.3",
+    "@azure/functions": "^3.5.1",
+    "azure-aws-serverless-express": "^0.1.5",
+    "azure-function-express": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "nexus": "^1.3.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
+  }
+}
