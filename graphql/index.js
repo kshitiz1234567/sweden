@@ -6,6 +6,7 @@ import schema from '../schema.js';
 // Set up Apollo Server
 const server = new ApolloServer({
   schema,
+  csrfPrevention: false
 });
 
 
